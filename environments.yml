@@ -1,0 +1,25 @@
+name: textmining
+dependencies:
+  - python==3.8.12
+  - jupyter
+  - notebook
+  - git
+  - numpy
+  - jpype1
+  - tensorflow
+  - pytorch
+  - huggingface:transformers
+  - pip
+  - pip:
+    - nltk
+    - git+https://github.com/sk8erchoi/konlpy
+    - matplotlib
+    - scikit-learn
+    - pyldavis
+    - textblob
+    - afinn
+    - vaderSentiment
+    - gensim
+    - datasets
+    - sentencepiece
+    - git+https://github.com/SKTBrain/KoBERT.git#egg=kobert_tokenizer&subdirectory=kobert_hf
